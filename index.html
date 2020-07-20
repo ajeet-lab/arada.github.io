@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link href="css/aos.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -92,11 +94,15 @@
             </button>
           </form>
           <ul class="navbar-nav d-flex pl-xl-0 pl-3">
+<<<<<<< HEAD
+            <li class="nav-item ">
+=======
             <li class="nav-item my-xl-0 mt-3">
+>>>>>>> dd1383960921a6c6913660f85f1bfff739f258c4
               <a class="btn btn-light-danger py-1 px-lg-3 my-xl-0 my-3" href="#">reserve</a>
             </li>
-            <li class="nav-item nav-item-last">
-              <a class="btn btn-light-danger py-1 px-lg-3" href="#"
+            <li class="nav-item nav-item-last ">
+              <a class="btn btn-light-danger py-1 px-lg-3 " href="#"
                 >get in touch</a
               >
             </li>
@@ -108,7 +114,7 @@
     <!-- Start Header Images -->
     <header id="header">
       <div class="header_img">
-        <button class="btn btn-light-danger text-white px-5">
+        <button class="btn btn-light-danger text-white px-5" data-aos="fade-up">
           Find a property
         </button>
       </div>
@@ -336,8 +342,8 @@
     <!-- unique_opportunity -->
     <section id="unique_opportunity">
         <div class="container-fluid  opportunity_img">
-            <h2>a unique opportunity</h2>
-            <a href="" class="btn btn-danger-light mt-4 px-4">register your interest</a>
+            <h2 data-aos="fade-down">a unique opportunity</h2>
+            <a data-aos="fade-up" href="" class="btn btn-danger-light mt-4 px-4">register your interest</a>
         </div>
     </section>
 
@@ -418,7 +424,13 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <script src="js/font_awesome.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
